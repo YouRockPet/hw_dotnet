@@ -18,11 +18,11 @@ namespace Task1
             ulong b2 = (ulong)a2;
 
             int x = 0;
-            long y = (long)x;
+            long y = x;
             float x1 = 0;
-            double y1 = (double)x1;
-            Int32 x2 = 0;
-            Int64 y2 = (Int64)x2;
+            double y1 = x1;
+            ushort x2 = 0;
+            int y2 = x2;
 
             int p = 0;
             object h = p; //упаковка
