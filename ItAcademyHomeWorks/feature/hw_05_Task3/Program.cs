@@ -6,7 +6,6 @@ namespace hw_05_Task3
         {
             static void Main(string[] args)
             {
-
             var watch = System.Diagnostics.Stopwatch.StartNew();
 
             int[] ar = new int[10000];
@@ -30,6 +29,7 @@ namespace hw_05_Task3
             //    ar[i] = ar[ar.Length - 1 - i];
             //    ar[ar.Length - 1 - i] = temp;
             //}
+
             Array.Reverse(ar);
                 foreach (var item in ar)
                 {
@@ -44,7 +44,6 @@ namespace hw_05_Task3
 
             // Измерения показали приблизительно равное время
         }
-        }
-    
+        }    
 
 }

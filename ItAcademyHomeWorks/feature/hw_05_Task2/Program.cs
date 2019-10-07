@@ -22,6 +22,7 @@ namespace hw_05_Task2
             int num = Convert.ToInt32(Console.ReadLine());
             Console.Write("Input position:");
             int pos = Convert.ToInt32(Console.ReadLine());
+
             if (pos+1 == arr.Length)
             {
                 arr[pos] = num;
@@ -35,6 +36,7 @@ namespace hw_05_Task2
 
                 arr[pos] = num;
             }
+
             foreach (var item in arr)
             {
                 Console.Write(item + ", ");

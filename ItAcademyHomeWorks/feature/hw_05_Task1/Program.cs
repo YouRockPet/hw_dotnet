@@ -14,8 +14,7 @@ namespace hw_05_Task1
             int[] ar1 = { 10, 32, 16, 74, 83, 11, 3 };
 
             int[] ar2 = new int[7];
-
-            
+                        
                 for (int i = 0; i < 7; i++)
                 {
                     ar2[i] = ar[i] + ar1[i];
