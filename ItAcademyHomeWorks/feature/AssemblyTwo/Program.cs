@@ -1,15 +1,16 @@
-﻿using System;
+﻿using AssemblyOne;
+using System;
 
 namespace AssemblyTwo
 {
     class Program
     {
-        class SportBike : MotorcyclePublic
+        class SportBike : MotorcyclePublic //work
         {
 
         }
 
-        class Bike : MotorcycleInternal
+        class Bike : MotorcycleInternal //Don't work
         {
 
         }
